@@ -1,0 +1,197 @@
+
+/*COLORS*/
+
+:root {
+  
+  /*--main-color: #38267D; /*royal purple */
+  /*--comp-color: #FFEEA1; /*light gold*/
+  /*--text-white: #FFFEF7; /*grey white*/ 
+  
+/*  grey scale*/
+  
+  /*--main-color: #95a5a6; concrete 
+  /*--comp-color: #ecf0f1; /*cloud*/
+  /*--text-white: #FFFEF7; /*grey white*/
+  /*--near-black: #000;*/
+  
+      /* purple/gold scheme*/
+/*      --main-color: #6454A4; flat purple? */
+/*      --comp-color: #EDD56B; gold*/
+/*      --text-white: white; grey white*/
+/*      --near-black: #181230;*/
+  
+/*  "Emerald" scheme*/
+  
+/*  --main-color: #2ECC73;*/
+/*  --comp-color: #FF6239; */
+/*  --text-white: #F6FFFA; */
+/*  --near-black: #08170E;*/
+  
+/*  "Belize Hole" scheme*/
+  
+  --main-color: #2980b9;
+  --comp-color: #FFA22C; 
+  --text-white: #F3F8FC; 
+  --near-black: #060D12;
+  
+}
+
+/*FONTS*/
+
+:root {
+  --display-font: 'Yeseva One', cursive;
+  --title-font: 'Arial', serif;
+  /*  --title-font: 'Roboto', sans-serif;*/
+  --lead-font: 'Roboto Slab', serif;
+}
+
+  
+  /*current fonts*/
+  /*  --display-font: 'Yeseva One', cursive;*/
+  /*  --title-font: 'Roboto', sans-serif;*/
+  /*  --lead-font: 'Roboto Slab', serif;*/
+  
+
+
+/*NAVBAR*/
+
+.navbar {
+  background-color: var(--main-color);
+}
+
+
+#brand {
+  color: var(--text-white);
+}
+
+.navbar-nav li a {
+  font-family: var(--title-font);
+}
+
+.navbar-brand {
+  font-family: var(--display-font);
+}
+
+.nav-link, .nav-link a {
+  text-decoration: none;
+  color: var(--text-white);
+}
+
+
+
+/*JUMBOTRON*/
+
+.jumbotron {
+  background-image: url(../img/nature-sunset-person-woman_resized.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: fixed;
+}
+
+#textbox {
+/*  background-color: rgba(0,0,0,.35);*/
+  margin-top: 225px;
+}
+
+.display-3 {
+  font-family: var(--display-font);
+  color: var(--text-white);
+}
+
+.icons img {
+  height: 30px;
+}
+
+/*GALLERY*/
+
+img {
+  max-height: 150px;
+}
+
+#footer {
+  background-color: var(--main-color);
+  height: 75px;
+}
+
+#footer2 {
+  background-color: var(--main-color);
+}
+
+#contact {
+  text-decoration: underline;
+}
+
+#footer2 {
+  color: var(--text-white);
+}
+
+
+/*BUTTONS*/
+
+.btn {
+  font-family: var(--title-font);
+  color: var(--text-white);
+  background-color: var(--main-color);  
+}
+
+button p {
+  color: white;
+}
+
+
+/*MODAL*/
+
+.modal-header {
+  background-color: var(--main-color);
+  color: var(--text-white);
+}
+
+#xbutton {
+  color: white;
+}
+
+.modal-title {
+  font-family: var(--title-font);
+}
+
+.form-group {
+  font-family: var(--title-font);
+}
+
+#modalbtns {
+  font-family: var(--title-font);
+}
+
+/*FONTS*/
+
+/*
+.display-3 {
+  font-family: var(--title-font);
+}
+*/
+
+.lead {
+  font-family: var(--lead-font);
+  color: var(--near-black);
+}
+
+
+.main-text {
+  color: var(--near-black);
+}
+
+.jumbotron {
+  color: var(--text-white);
+}
+
+.jumbotron .lead {
+  color: var(--text-white);
+}
+
+#jumbolead {
+  font-size: 2.3em;
+}
+
+.wontshareemail {
+  font-size: .75em;
+}
